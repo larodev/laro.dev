@@ -27,19 +27,12 @@ enableGitInfo = true
     post = " /"
     weight = 10
   [[menu.main]]
-    identifier = "tags"
-    name = "tags"
-    title = "tags"
-    url = "/tags/"
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
     post = " /"
     weight = 20
-  [[menu.main]]
-    identifier = "rss"
-    name = "rss"
-    title = "rss"
-    url = "/index.xml"
-    weight = 30
-    post = " /"
 
 [permalinks]
   posts = "/posts/:filename/"
