@@ -1,7 +1,7 @@
 baseURL = "http://laro.dev/"
 languageCode = "en-us"
 title = "Laro dev"
-theme = "etch"
+theme = "blank"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
