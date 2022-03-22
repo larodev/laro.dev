@@ -1,7 +1,7 @@
 ---
 title: other
 date: 2021-09-20
-description: This is my personal page
+summary: This is my personal page
 draft: false
 tags:
 - website
