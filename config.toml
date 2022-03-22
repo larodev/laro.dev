@@ -1,6 +1,6 @@
 baseURL = "http://laro.dev/"
 languageCode = "en-us"
-title = "Laro dev"
+title = "Laro"
 theme = "blank"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
