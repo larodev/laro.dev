@@ -1,5 +1,5 @@
 ---
-title: "Contact Laro dev"
+title: "Contact"
 date: 2022-03-19
 ---
 
@@ -17,3 +17,5 @@ date: 2022-03-19
     <button type="submit">Send</button>
   </p>
 </form>
+
+or contact me at <a href="mailto:contact@laro.dev">contact@laro.dev</a>
