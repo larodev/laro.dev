@@ -1,45 +1,81 @@
 baseURL = "http://laro.dev/"
 languageCode = "en-us"
 title = "Laro"
-theme = "blank"
+theme = "hugo-tania"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 enableGitInfo = true
-# paginate = 6
+paginate = 6
 
 [params]
-  copyright = "Copyright © 2022 - Laro development"
-  dark = "auto"
-  highlight = true
-  mainSections = ['posts']
+  # Emoji will show before the blog title on site navbar.
+  titleEmoji  = "🌊"
+
+  # Logo will show before the blog title on site navbar.
+  titleLogo = ""
+
+  # Enable float footnotes.
+  # Default to true
+  enableFootnotes = true
+
+  siteName = "Laro"
+  siteDesc = "Nice web solutions"
+  author = "pir.nz"
+
+  [params.colorScheme]
+    # Enable toggle colorScheme
+    # Default to true
+    toggle = true
+    # Default colorScheme
+    # Default to auto
+    default = "auto"
+
+  # Limit how many categories filter show above search input.
+  # Default to 5
+  maxCategoryToShow = 10
+
+  # Show your social information with icon on index bio with `_index.md` content.
+  [params.socialOptions]
+    dev-to = ""
+    email = ""
+    facebook = ""
+    github = ""
+    instagram = ""
+    linkedin = ""
+    medium = ""
+    stack-overflow = ""
+    steam = ""
+    telegram = ""
+    twitter = ""
+    twitch = ""
+    whatsapp = ""
   
-[taxonomies]
-  tag = 'tags'
+  # Comments settigns
+  [params.comments]
+    enabled = true
+    provider = "disqus"
 
 [menu]
-  [[menu.main]]
-    identifier = "contact"
-    name = "contact"
-    title = "contact"
+  [[menu.header]]
+    name = "Contact"
     url = "/contact/"
-    pre = "/ "
-    post = " /"
-    weight = 10
-  [[menu.main]]
-    identifier = "about"
-    name = "about"
-    title = "about"
+  [[menu.header]]
+    name = "About"
     url = "/about/"
-    post = " /"
-    weight = 20
+  [[menu.footer]]
+    name = "RSS"
+    url = "/index.xml"
 
-[permalinks]
-  posts = "/posts/:filename/"
-
+[markup]
+[markup.highlight]
+  noClasses = false
+  lineNos = true
 [markup.goldmark.renderer]
-  # Allow HTML in Markdown
   unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [markup.tableOfContents]
   ordered = true
