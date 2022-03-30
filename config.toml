@@ -10,7 +10,8 @@ paginate = 6
 
 [params]
   # Emoji will show before the blog title on site navbar.
-  titleEmoji  = "🌊"
+  titleEmoji = "🌊"
+  favicon = "🌊"
 
   # Logo will show before the blog title on site navbar.
   titleLogo = ""
