@@ -58,12 +58,6 @@ paginate = 6
     provider = "disqus"
 
 [menu]
-  [[menu.header]]
-    name = "Contact"
-    url = "/contact/"
-  [[menu.header]]
-    name = "About"
-    url = "/about/"
   [[menu.footer]]
     name = "RSS"
     url = "/index.xml"
