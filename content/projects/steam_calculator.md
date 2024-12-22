@@ -1,9 +1,9 @@
 ---
-title: "Steam calculator"
+title: "Calculadora Al-vapor"
 date: 2022-03-22
-description: Know how to steam your veggies
+description: Prepara tus verduras al dente
 weight: 1
-link: https://steam.laro.dev
+link: https://al-vapor.laro.dev
 repo: https://github.com/larodev/steam-calculator
 icon: 💨
 draft: false
