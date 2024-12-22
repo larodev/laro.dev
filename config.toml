@@ -59,9 +59,6 @@ paginate = 6
 
 [menu]
   [[menu.header]]
-    name = "Blog"
-    url = "https://blog.laro.dev"
-  [[menu.header]]
     name = "Contact"
     url = "/contact/"
   [[menu.header]]
