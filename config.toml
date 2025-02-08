@@ -59,9 +59,9 @@ paginate = 6
 
 [menu]
   [[menu.footer]]
-    name = "Contacto"
-    url = "/contact/"
-
+    name = "RSS"
+    url = "/index.xml"
+    
 [markup]
 [markup.highlight]
   noClasses = false
