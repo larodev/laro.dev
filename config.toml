@@ -60,7 +60,7 @@ paginate = 6
 [menu]
   [[menu.footer]]
     name = "Contacto"
-    url = "/about/"
+    url = "/contact/"
 
 [markup]
 [markup.highlight]
