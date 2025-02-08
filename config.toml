@@ -59,13 +59,8 @@ paginate = 6
 
 [menu]
   [[menu.footer]]
-    name = "RSS"
-    url = "/index.xml"
-  
-  [[menu.main]]
     name = "Contacto"
-    url = "/about"
-    weight = 1
+    url = "/about/"
 
 [markup]
 [markup.highlight]
