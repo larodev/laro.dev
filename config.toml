@@ -39,9 +39,9 @@ paginate = 6
   # Show your social information with icon on index bio with `_index.md` content.
   [params.socialOptions]
     dev-to = ""
-    email = ""
+    email = "hola@laro.dev"
     facebook = ""
-    github = ""
+    github = "https://github.com/larodev"
     instagram = ""
     linkedin = ""
     medium = ""
@@ -58,9 +58,6 @@ paginate = 6
     provider = "disqus"
 
 [menu]
-  [[menu.header]]
-    name = "Contacto"
-    url = "/contacto/"
   [[menu.footer]]
     name = "RSS"
     url = "/index.xml"
