@@ -1,12 +1,16 @@
 baseURL = "http://laro.dev/"
 languageCode = "en-us"
-title = "Laro"
+title = "laro.dev"
 theme = "hugo-tania"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 enableGitInfo = true
 paginate = 6
+
+[author]
+  name = "pir.nz"
+  email = "hello@laro.dev"
 
 [params]
   # Emoji will show before the blog title on site navbar.
@@ -21,7 +25,7 @@ paginate = 6
   enableFootnotes = true
 
   siteName = "Laro"
-  siteDesc = "Nice web solutions"
+  siteDesc = "Soluciones web"
   author = "pir.nz"
 
   [params.colorScheme]
