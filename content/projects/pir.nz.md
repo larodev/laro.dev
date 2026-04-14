@@ -7,3 +7,7 @@ repo: https://pir.nz
 icon: 🌐
 draft: false
 ---
+
+En linea de una manera u otra desde hace tiempo:
+
+https://pir.nz
